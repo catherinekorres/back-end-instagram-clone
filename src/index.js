@@ -7,7 +7,6 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
-// NÃO ESQUECER DE ALTERAR ANTES DE DAR COMMIT
 mongoose.connect('mongodb+srv://user:frMakWig8zvMnzpI@cluster0-aygqp.mongodb.net/test?retryWrites=true&w=majority', {
   useNewUrlParser: true,
 });
